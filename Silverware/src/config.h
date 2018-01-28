@@ -76,9 +76,9 @@
 //#define SOFT_LPF_4TH_088HZ
 //#define SOFT_LPF_4TH_160HZ
 //#define SOFT_LPF_4TH_250HZ
-//#define SOFT_LPF_1ST_HZ 100
+#define SOFT_LPF_1ST_HZ 100
 //#define SOFT_LPF_2ST_HZ 100
-#define SOFT_LPF_NONE
+//#define SOFT_LPF_NONE
 
 
 
@@ -158,7 +158,7 @@
 //#define THROTTLE_TRANSIENT_COMPENSATION
 
 //throttle feedback from accelerometer
-#define THROTTLE_SMOOTH
+//#define THROTTLE_SMOOTH
 
 // lost quad beeps using motors (30 sec timeout)
 //#define MOTOR_BEEPS
